@@ -1,0 +1,1701 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_7edab9c5b9cf4a8e8ab3cf7d830753e8 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css" />
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_7edab9c5b9cf4a8e8ab3cf7d830753e8" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_7edab9c5b9cf4a8e8ab3cf7d830753e8 = L.map(
+                                  'map_7edab9c5b9cf4a8e8ab3cf7d830753e8',
+                                  {center: [51.172421,3.580521],
+                                  zoom: 5,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_1ded56c8a82447f79c253fbe2508fb77 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null, 
+  "detectRetina": false, 
+  "maxZoom": 18, 
+  "minZoom": 1, 
+  "noWrap": false, 
+  "subdomains": "abc"
+}
+                ).addTo(map_7edab9c5b9cf4a8e8ab3cf7d830753e8);
+        
+    
+            var marker_cluster_e98750a9549342a496a341b7c4a9e8fc = L.markerClusterGroup({
+                
+            });
+            map_7edab9c5b9cf4a8e8ab3cf7d830753e8.addLayer(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+
+            var marker_f4a554b058dd47ce92dd416d4153d1cf = L.marker(
+                [48.9250016,2.2105491],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_2f43ddac02f2472cb63260165f655d86 = L.popup({maxWidth: '300'});
+
+            
+                var html_c1749c552b0548f1927967125301ab2a = $('<div id="html_c1749c552b0548f1927967125301ab2a" style="width: 100.0%; height: 100.0%;">2008: Bezons Bridge (<a href=http://www.victorbuyck.be/downloads/pdf/en/83>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/83>nl</a>)</div>')[0];
+                popup_2f43ddac02f2472cb63260165f655d86.setContent(html_c1749c552b0548f1927967125301ab2a);
+            
+
+            marker_f4a554b058dd47ce92dd416d4153d1cf.bindPopup(popup_2f43ddac02f2472cb63260165f655d86);
+
+            
+        
+    
+
+            var marker_c37d69bef5b74e2aac1db92e1b213c59 = L.marker(
+                [47.9027336,1.9086066],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_1c907374a7724a32ac1650a4152f29fc = L.popup({maxWidth: '300'});
+
+            
+                var html_a191a50a201444e3b4503b265761abf8 = $('<div id="html_a191a50a201444e3b4503b265761abf8" style="width: 100.0%; height: 100.0%;">1998: Europe bridge over the Loire (<a href=http://www.victorbuyck.be/downloads/pdf/en/13>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/13>nl</a>)</div>')[0];
+                popup_1c907374a7724a32ac1650a4152f29fc.setContent(html_a191a50a201444e3b4503b265761abf8);
+            
+
+            marker_c37d69bef5b74e2aac1db92e1b213c59.bindPopup(popup_1c907374a7724a32ac1650a4152f29fc);
+
+            
+        
+    
+
+            var marker_a09684558680409685fde019849e1eec = L.marker(
+                [51.34942965,3.3233773893],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_94e98628e1bb46588501ba0b6d0def40 = L.popup({maxWidth: '300'});
+
+            
+                var html_5d484a0b83d04b57a6c2cc4a9daafc45 = $('<div id="html_5d484a0b83d04b57a6c2cc4a9daafc45" style="width: 100.0%; height: 100.0%;">2007: The Lichtenlijn (<a href=http://www.victorbuyck.be/downloads/pdf/en/42>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/42>nl</a>)</div>')[0];
+                popup_94e98628e1bb46588501ba0b6d0def40.setContent(html_5d484a0b83d04b57a6c2cc4a9daafc45);
+            
+
+            marker_a09684558680409685fde019849e1eec.bindPopup(popup_94e98628e1bb46588501ba0b6d0def40);
+
+            
+        
+    
+
+            var marker_204714be2d934dc0a5fd58f76d0854ab = L.marker(
+                [51.1335438,2.7522612],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_9e29858a8fc2418585a8bcf225112ef5 = L.popup({maxWidth: '300'});
+
+            
+                var html_f8385783a7424dcabde16047bf9a3f43 = $('<div id="html_f8385783a7424dcabde16047bf9a3f43" style="width: 100.0%; height: 100.0%;">2010: Mooring Platform - Ostend & Nieuwpoort (<a href=http://www.victorbuyck.be/downloads/pdf/en/59>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/59>nl</a>)</div>')[0];
+                popup_9e29858a8fc2418585a8bcf225112ef5.setContent(html_f8385783a7424dcabde16047bf9a3f43);
+            
+
+            marker_204714be2d934dc0a5fd58f76d0854ab.bindPopup(popup_9e29858a8fc2418585a8bcf225112ef5);
+
+            
+        
+    
+
+            var marker_d362bb9fedcf4d42af160f36a45063ed = L.marker(
+                [52.3745403,4.89797550562],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_f8f231d5e3c3437bb0522d10c1215703 = L.popup({maxWidth: '300'});
+
+            
+                var html_752447ea6f454eb4b8d8413dc7b74c3f = $('<div id="html_752447ea6f454eb4b8d8413dc7b74c3f" style="width: 100.0%; height: 100.0%;">2005: Amsterdam Bijlmer ArenA Station (<a href=http://www.victorbuyck.be/downloads/pdf/en/46>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/46>nl</a>)</div>')[0];
+                popup_f8f231d5e3c3437bb0522d10c1215703.setContent(html_752447ea6f454eb4b8d8413dc7b74c3f);
+            
+
+            marker_d362bb9fedcf4d42af160f36a45063ed.bindPopup(popup_f8f231d5e3c3437bb0522d10c1215703);
+
+            
+        
+    
+
+            var marker_6b58e09bb25d4926ac967d7486405b7a = L.marker(
+                [44.9084688,1.4715747],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_863fcf9a795a4e118654da559eec82fd = L.popup({maxWidth: '300'});
+
+            
+                var html_e54ac1b0ddeb418587f5e1d63248e95a = $('<div id="html_e54ac1b0ddeb418587f5e1d63248e95a" style="width: 100.0%; height: 100.0%;">2005: Lamothe Viaduct (<a href=http://www.victorbuyck.be/downloads/pdf/en/24>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/24>nl</a>)</div>')[0];
+                popup_863fcf9a795a4e118654da559eec82fd.setContent(html_e54ac1b0ddeb418587f5e1d63248e95a);
+            
+
+            marker_6b58e09bb25d4926ac967d7486405b7a.bindPopup(popup_863fcf9a795a4e118654da559eec82fd);
+
+            
+        
+    
+
+            var marker_a650ee9cbc674507aabbab591a93d6a3 = L.marker(
+                [51.1087891,3.7078565],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_bc763f101a744dd8aa6e16b8168885e1 = L.popup({maxWidth: '300'});
+
+            
+                var html_14944761359249e0aa1c8b508d3c2988 = $('<div id="html_14944761359249e0aa1c8b508d3c2988" style="width: 100.0%; height: 100.0%;">2007: New Lock of Evergem (<a href=http://www.victorbuyck.be/downloads/pdf/en/51>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/51>nl</a>)</div>')[0];
+                popup_bc763f101a744dd8aa6e16b8168885e1.setContent(html_14944761359249e0aa1c8b508d3c2988);
+            
+
+            marker_a650ee9cbc674507aabbab591a93d6a3.bindPopup(popup_bc763f101a744dd8aa6e16b8168885e1);
+
+            
+        
+    
+
+            var marker_198ef377879c4555b7ff0ac1119bf9e3 = L.marker(
+                [48.8356649,2.240206],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_9e2e48ed4d544fdbaf9dd51e942e62a1 = L.popup({maxWidth: '300'});
+
+            
+                var html_2caac627d15144e2a537752d16f5dba3 = $('<div id="html_2caac627d15144e2a537752d16f5dba3" style="width: 100.0%; height: 100.0%;">2005: Renault bridge (<a href=http://www.victorbuyck.be/downloads/pdf/en/34>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/34>nl</a>)</div>')[0];
+                popup_9e2e48ed4d544fdbaf9dd51e942e62a1.setContent(html_2caac627d15144e2a537752d16f5dba3);
+            
+
+            marker_198ef377879c4555b7ff0ac1119bf9e3.bindPopup(popup_9e2e48ed4d544fdbaf9dd51e942e62a1);
+
+            
+        
+    
+
+            var marker_dbde17e33aae4136bf206cfd14602ad3 = L.marker(
+                [50.8676041,4.3737121],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_1bc9aa43b8b34253adcf7f352b8bec94 = L.popup({maxWidth: '300'});
+
+            
+                var html_980d0add4f44426ab8c80d04185468e9 = $('<div id="html_980d0add4f44426ab8c80d04185468e9" style="width: 100.0%; height: 100.0%;">2004: Bridge for the HSL Brussels-Köln (<a href=http://www.victorbuyck.be/downloads/pdf/en/22>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/22>nl</a>)</div>')[0];
+                popup_1bc9aa43b8b34253adcf7f352b8bec94.setContent(html_980d0add4f44426ab8c80d04185468e9);
+            
+
+            marker_dbde17e33aae4136bf206cfd14602ad3.bindPopup(popup_1bc9aa43b8b34253adcf7f352b8bec94);
+
+            
+        
+    
+
+            var marker_c2f9469fabf64b7a86ac4aead8d5a729 = L.marker(
+                [51.0281381,4.4803453],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_d6a89925d7984ad289b866036d1d78bb = L.popup({maxWidth: '300'});
+
+            
+                var html_1e3caf4fee43490391a436266ec16589 = $('<div id="html_1e3caf4fee43490391a436266ec16589" style="width: 100.0%; height: 100.0%;">2008: Diabolo project: bridge across the E19 (<a href=http://www.victorbuyck.be/downloads/pdf/en/27>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/27>nl</a>)<br>2013: Spoorbypass Mechelen (<a href=http://www.victorbuyck.be/downloads/pdf/en/105>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/105>nl</a>)</div>')[0];
+                popup_d6a89925d7984ad289b866036d1d78bb.setContent(html_1e3caf4fee43490391a436266ec16589);
+            
+
+            marker_c2f9469fabf64b7a86ac4aead8d5a729.bindPopup(popup_d6a89925d7984ad289b866036d1d78bb);
+
+            
+        
+    
+
+            var marker_9d246079dd064b3f892776b0de25a97f = L.marker(
+                [53.2217925,6.5582453348],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_c8e0c140e98247258a6b519b39baf9b3 = L.popup({maxWidth: '300'});
+
+            
+                var html_f583e3bd2db54e009491f82b65a2f515 = $('<div id="html_f583e3bd2db54e009491f82b65a2f515" style="width: 100.0%; height: 100.0%;">2000: Walfridusbridge (<a href=http://www.victorbuyck.be/downloads/pdf/en/19>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/19>nl</a>)</div>')[0];
+                popup_c8e0c140e98247258a6b519b39baf9b3.setContent(html_f583e3bd2db54e009491f82b65a2f515);
+            
+
+            marker_9d246079dd064b3f892776b0de25a97f.bindPopup(popup_c8e0c140e98247258a6b519b39baf9b3);
+
+            
+        
+    
+
+            var marker_bf842abac8054dd5811418b4ebef60a7 = L.marker(
+                [52.5170365,13.3888599],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_a4630c39be73472680f051768f738224 = L.popup({maxWidth: '300'});
+
+            
+                var html_6d5f1e0fc6ce4a3185a48ee5d675a99c = $('<div id="html_6d5f1e0fc6ce4a3185a48ee5d675a99c" style="width: 100.0%; height: 100.0%;">1992: Kronprinzen Bridge (<a href=http://www.victorbuyck.be/downloads/pdf/en/11>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/11>nl</a>)</div>')[0];
+                popup_a4630c39be73472680f051768f738224.setContent(html_6d5f1e0fc6ce4a3185a48ee5d675a99c);
+            
+
+            marker_bf842abac8054dd5811418b4ebef60a7.bindPopup(popup_a4630c39be73472680f051768f738224);
+
+            
+        
+    
+
+            var marker_84425a55e79642a586675d87eda37c5d = L.marker(
+                [51.0957176,4.5061988],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_feaef7e185164e3fbaeb1278936e2542 = L.popup({maxWidth: '300'});
+
+            
+                var html_2860a92cead84b24bf7ea46e82f804a4 = $('<div id="html_2860a92cead84b24bf7ea46e82f804a4" style="width: 100.0%; height: 100.0%;">2009: Netebruggen (<a href=http://www.victorbuyck.be/downloads/pdf/en/56>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/56>nl</a>)</div>')[0];
+                popup_feaef7e185164e3fbaeb1278936e2542.setContent(html_2860a92cead84b24bf7ea46e82f804a4);
+            
+
+            marker_84425a55e79642a586675d87eda37c5d.bindPopup(popup_feaef7e185164e3fbaeb1278936e2542);
+
+            
+        
+    
+
+            var marker_d2dccf78d3574d31a5ad260b8d631524 = L.marker(
+                [51.0493286,13.7381437],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_24c84f3719494563ab683066b8787242 = L.popup({maxWidth: '300'});
+
+            
+                var html_6477d7d82f3742b08196af85266d94d8 = $('<div id="html_6477d7d82f3742b08196af85266d94d8" style="width: 100.0%; height: 100.0%;">2008: Waldschlösschen Bridge (<a href=http://www.victorbuyck.be/downloads/pdf/en/4>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/4>nl</a>)</div>')[0];
+                popup_24c84f3719494563ab683066b8787242.setContent(html_6477d7d82f3742b08196af85266d94d8);
+            
+
+            marker_d2dccf78d3574d31a5ad260b8d631524.bindPopup(popup_24c84f3719494563ab683066b8787242);
+
+            
+        
+    
+
+            var marker_662599b9990f433cac0f989e03bffe51 = L.marker(
+                [49.1196964,6.1763552],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_1cca103212f3418e8615d67e245543d2 = L.popup({maxWidth: '300'});
+
+            
+                var html_ad663bc7b4a24d3598f1fed204b9e0dc = $('<div id="html_ad663bc7b4a24d3598f1fed204b9e0dc" style="width: 100.0%; height: 100.0%;">2002: Jaulny Viaduct (<a href=http://www.victorbuyck.be/downloads/pdf/en/20>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/20>nl</a>)</div>')[0];
+                popup_1cca103212f3418e8615d67e245543d2.setContent(html_ad663bc7b4a24d3598f1fed204b9e0dc);
+            
+
+            marker_662599b9990f433cac0f989e03bffe51.bindPopup(popup_1cca103212f3418e8615d67e245543d2);
+
+            
+        
+    
+
+            var marker_be467d72777a4f63b068984145451d3d = L.marker(
+                [51.2211097,4.3997081],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_ff9b6c2794ff46f5b7b3e0cfab6a5fe2 = L.popup({maxWidth: '300'});
+
+            
+                var html_a693649666db40df8a562861efe77062 = $('<div id="html_a693649666db40df8a562861efe77062" style="width: 100.0%; height: 100.0%;">2008: Replacement of the bridges on the Albertcanal (Noorderlaan) (<a href=http://www.victorbuyck.be/downloads/pdf/en/65>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/65>nl</a>)<br>2009: Current Deflection Wall (<a href=http://www.victorbuyck.be/downloads/pdf/en/60>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/60>nl</a>)<br>2009: Kattendijk Lock (<a href=http://www.victorbuyck.be/downloads/pdf/en/43>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/43>nl</a>)<br>2009: Van Cauwelaertsluis (<a href=http://www.victorbuyck.be/downloads/pdf/en/2>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/2>nl</a>)<br>2012: Port House of Antwerp (<a href=http://www.victorbuyck.be/downloads/pdf/en/69>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/69>nl</a>)</div>')[0];
+                popup_ff9b6c2794ff46f5b7b3e0cfab6a5fe2.setContent(html_a693649666db40df8a562861efe77062);
+            
+
+            marker_be467d72777a4f63b068984145451d3d.bindPopup(popup_ff9b6c2794ff46f5b7b3e0cfab6a5fe2);
+
+            
+        
+    
+
+            var marker_617a98b54f30487fb50e5d7defc186f4 = L.marker(
+                [52.30030675,4.69863114495],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_ee357914d1a744d9a731ed450bba315b = L.popup({maxWidth: '300'});
+
+            
+                var html_9e28f1d03ee64a6e827281791837df96 = $('<div id="html_9e28f1d03ee64a6e827281791837df96" style="width: 100.0%; height: 100.0%;">2001: Three bridges over the Hoofdvaart Canal (<a href=http://www.victorbuyck.be/downloads/pdf/en/16>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/16>nl</a>)</div>')[0];
+                popup_ee357914d1a744d9a731ed450bba315b.setContent(html_9e28f1d03ee64a6e827281791837df96);
+            
+
+            marker_617a98b54f30487fb50e5d7defc186f4.bindPopup(popup_ee357914d1a744d9a731ed450bba315b);
+
+            
+        
+    
+
+            var marker_f7a67026b8d8424da81e2f366953320c = L.marker(
+                [51.21788385,4.59995468228],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_f3ec8ebbabdb4b918762fe8bceeca921 = L.popup({maxWidth: '300'});
+
+            
+                var html_a05b7fdff7e940178b9d08466a469a11 = $('<div id="html_a05b7fdff7e940178b9d08466a469a11" style="width: 100.0%; height: 100.0%;">2011: Oelegem (<a href=http://www.victorbuyck.be/downloads/pdf/en/79>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/79>nl</a>)</div>')[0];
+                popup_f3ec8ebbabdb4b918762fe8bceeca921.setContent(html_a05b7fdff7e940178b9d08466a469a11);
+            
+
+            marker_f7a67026b8d8424da81e2f366953320c.bindPopup(popup_f3ec8ebbabdb4b918762fe8bceeca921);
+
+            
+        
+    
+
+            var marker_08078865bf034225882b72192c6ea346 = L.marker(
+                [49.7119748,6.2532453],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_0474d299dbb94cebb557484fae6f82ea = L.popup({maxWidth: '300'});
+
+            
+                var html_05905954b6a641ee8cf096aa298f9839 = $('<div id="html_05905954b6a641ee8cf096aa298f9839" style="width: 100.0%; height: 100.0%;">2012: Junglinster (<a href=http://www.victorbuyck.be/downloads/pdf/en/74>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/74>nl</a>)</div>')[0];
+                popup_0474d299dbb94cebb557484fae6f82ea.setContent(html_05905954b6a641ee8cf096aa298f9839);
+            
+
+            marker_08078865bf034225882b72192c6ea346.bindPopup(popup_0474d299dbb94cebb557484fae6f82ea);
+
+            
+        
+    
+
+            var marker_4733122b9ad642b38bf4a9c324c493e9 = L.marker(
+                [51.44855695,5.45012252186],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_c2bfd8fdd5f243a880191f850e899f09 = L.popup({maxWidth: '300'});
+
+            
+                var html_e504a880d1284c709d4371cdc907fe66 = $('<div id="html_e504a880d1284c709d4371cdc907fe66" style="width: 100.0%; height: 100.0%;">2011: Hovenring (<a href=http://www.victorbuyck.be/downloads/pdf/en/68>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/68>nl</a>)</div>')[0];
+                popup_c2bfd8fdd5f243a880191f850e899f09.setContent(html_e504a880d1284c709d4371cdc907fe66);
+            
+
+            marker_4733122b9ad642b38bf4a9c324c493e9.bindPopup(popup_c2bfd8fdd5f243a880191f850e899f09);
+
+            
+        
+    
+
+            var marker_fc3d038f88f145d48a4fe4983c6049e8 = L.marker(
+                [49.7506746,6.1066591],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_1b7e455a06a04a83bb2dce697c86d1df = L.popup({maxWidth: '300'});
+
+            
+                var html_b1f1ccd7470b4d48970c54d6f128402c = $('<div id="html_b1f1ccd7470b4d48970c54d6f128402c" style="width: 100.0%; height: 100.0%;">2014: Réaménagement RN7 à Mersch (<a href=http://www.victorbuyck.be/downloads/pdf/en/99>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/99>nl</a>)</div>')[0];
+                popup_1b7e455a06a04a83bb2dce697c86d1df.setContent(html_b1f1ccd7470b4d48970c54d6f128402c);
+            
+
+            marker_fc3d038f88f145d48a4fe4983c6049e8.bindPopup(popup_1b7e455a06a04a83bb2dce697c86d1df);
+
+            
+        
+    
+
+            var marker_cfa1d87ed6ee4d01a567a7ad9508c6f1 = L.marker(
+                [8.0300284,-1.0800271],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_11c7f6cbb7f045c2ac15944ac5c8da01 = L.popup({maxWidth: '300'});
+
+            
+                var html_cd10536b91674e23bd88e27ec558493b = $('<div id="html_cd10536b91674e23bd88e27ec558493b" style="width: 100.0%; height: 100.0%;">2013: Ghana Bridges (<a href=http://www.victorbuyck.be/downloads/pdf/en/86>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/86>nl</a>)</div>')[0];
+                popup_11c7f6cbb7f045c2ac15944ac5c8da01.setContent(html_cd10536b91674e23bd88e27ec558493b);
+            
+
+            marker_cfa1d87ed6ee4d01a567a7ad9508c6f1.bindPopup(popup_11c7f6cbb7f045c2ac15944ac5c8da01);
+
+            
+        
+    
+
+            var marker_561c9677e97645169459bf56fe38decc = L.marker(
+                [50.8141622,5.6692203],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_8bdc120e63dc46b68f3c141d8d9bdb46 = L.popup({maxWidth: '300'});
+
+            
+                var html_6f621674234143e282244441fbdc5fa5 = $('<div id="html_6f621674234143e282244441fbdc5fa5" style="width: 100.0%; height: 100.0%;">2003: The Kanne bridge (<a href=http://www.victorbuyck.be/downloads/pdf/en/44>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/44>nl</a>)</div>')[0];
+                popup_8bdc120e63dc46b68f3c141d8d9bdb46.setContent(html_6f621674234143e282244441fbdc5fa5);
+            
+
+            marker_561c9677e97645169459bf56fe38decc.bindPopup(popup_8bdc120e63dc46b68f3c141d8d9bdb46);
+
+            
+        
+    
+
+            var marker_3aae9c16b0cd49d599e9045172ba1302 = L.marker(
+                [51.2919263,4.3783842],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_4a64d8a6c5474325b0cf3cb51d3ef676 = L.popup({maxWidth: '300'});
+
+            
+                var html_6ec86ebbadd24f2aa944d21e01a2c1da = $('<div id="html_6ec86ebbadd24f2aa944d21e01a2c1da" style="width: 100.0%; height: 100.0%;">2014: Renovatie Noordkasteelbrug Oost (<a href=http://www.victorbuyck.be/downloads/pdf/en/100>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/100>nl</a>)</div>')[0];
+                popup_4a64d8a6c5474325b0cf3cb51d3ef676.setContent(html_6ec86ebbadd24f2aa944d21e01a2c1da);
+            
+
+            marker_3aae9c16b0cd49d599e9045172ba1302.bindPopup(popup_4a64d8a6c5474325b0cf3cb51d3ef676);
+
+            
+        
+    
+
+            var marker_b71ac61c703548979c7ee86c10183de1 = L.marker(
+                [49.8158683,6.1296751],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_3adb38ddbaaf477097a8b3a0f1f8c2c2 = L.popup({maxWidth: '300'});
+
+            
+                var html_d56f36e0a7964e419bf1843c6f02f554 = $('<div id="html_d56f36e0a7964e419bf1843c6f02f554" style="width: 100.0%; height: 100.0%;">2010: Rue dAlsace Bridge (<a href=http://www.victorbuyck.be/downloads/pdf/en/63>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/63>nl</a>)<br>2012: Temporary Bridge Adolphe (<a href=http://www.victorbuyck.be/downloads/pdf/en/76>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/76>nl</a>)</div>')[0];
+                popup_3adb38ddbaaf477097a8b3a0f1f8c2c2.setContent(html_d56f36e0a7964e419bf1843c6f02f554);
+            
+
+            marker_b71ac61c703548979c7ee86c10183de1.bindPopup(popup_3adb38ddbaaf477097a8b3a0f1f8c2c2);
+
+            
+        
+    
+
+            var marker_4a7298ca86df44fe912c307a88def7d7 = L.marker(
+                [48.3905283,-4.4860088],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_63215367c2d449608cdc6033ce5479be = L.popup({maxWidth: '300'});
+
+            
+                var html_fa03ea0b342840c2a9ef1e2c3185f7fc = $('<div id="html_fa03ea0b342840c2a9ef1e2c3185f7fc" style="width: 100.0%; height: 100.0%;">2010: Pont de Recouvrance (<a href=http://www.victorbuyck.be/downloads/pdf/en/85>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/85>nl</a>)</div>')[0];
+                popup_63215367c2d449608cdc6033ce5479be.setContent(html_fa03ea0b342840c2a9ef1e2c3185f7fc);
+            
+
+            marker_4a7298ca86df44fe912c307a88def7d7.bindPopup(popup_63215367c2d449608cdc6033ce5479be);
+
+            
+        
+    
+
+            var marker_62e3b266b0da4e09ae83d2b99058e9a5 = L.marker(
+                [54.9063791,-1.375053],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_8403718233de4082a3a1b8888e1ced7a = L.popup({maxWidth: '300'});
+
+            
+                var html_cef655d953a34c1b8c563e0629384fc1 = $('<div id="html_cef655d953a34c1b8c563e0629384fc1" style="width: 100.0%; height: 100.0%;">2015: New Wear Bridge - Sunderland (<a href=http://www.victorbuyck.be/downloads/pdf/en/95>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/95>nl</a>)</div>')[0];
+                popup_8403718233de4082a3a1b8888e1ced7a.setContent(html_cef655d953a34c1b8c563e0629384fc1);
+            
+
+            marker_62e3b266b0da4e09ae83d2b99058e9a5.bindPopup(popup_8403718233de4082a3a1b8888e1ced7a);
+
+            
+        
+    
+
+            var marker_8522ca7db4b7427ab5a7d2d0c797985f = L.marker(
+                [51.2000036,3.8105002],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_9c9e0fb5a9044f098552893a011099b0 = L.popup({maxWidth: '300'});
+
+            
+                var html_68890cad8f2f44f0af33325a2c9e9766 = $('<div id="html_68890cad8f2f44f0af33325a2c9e9766" style="width: 100.0%; height: 100.0%;">1990: OCAS Research Centre for steel applications (<a href=http://www.victorbuyck.be/downloads/pdf/en/8>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/8>nl</a>)<br>2006: Degasser ArcelorMittal Zelzate (<a href=http://www.victorbuyck.be/downloads/pdf/en/48>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/48>nl</a>)</div>')[0];
+                popup_9c9e0fb5a9044f098552893a011099b0.setContent(html_68890cad8f2f44f0af33325a2c9e9766);
+            
+
+            marker_8522ca7db4b7427ab5a7d2d0c797985f.bindPopup(popup_9c9e0fb5a9044f098552893a011099b0);
+
+            
+        
+    
+
+            var marker_56ec45bc9b194532ac1b0dc04ee69909 = L.marker(
+                [49.2195051,6.192811],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_034004f3115c4eaba8d78ab856322226 = L.popup({maxWidth: '300'});
+
+            
+                var html_50739e28e5a84775b4a685dd90e0ca31 = $('<div id="html_50739e28e5a84775b4a685dd90e0ca31" style="width: 100.0%; height: 100.0%;">2012: Rapilly Bridge (<a href=http://www.victorbuyck.be/downloads/pdf/en/73>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/73>nl</a>)</div>')[0];
+                popup_034004f3115c4eaba8d78ab856322226.setContent(html_50739e28e5a84775b4a685dd90e0ca31);
+            
+
+            marker_56ec45bc9b194532ac1b0dc04ee69909.bindPopup(popup_034004f3115c4eaba8d78ab856322226);
+
+            
+        
+    
+
+            var marker_b627b214399c430d8d275b0bc3e31f33 = L.marker(
+                [49.49426735,5.95953756922],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_6f2d8452475a4a6680603634db228055 = L.popup({maxWidth: '300'});
+
+            
+                var html_20cccccdb8f8485190bf0c37c3d1fe42 = $('<div id="html_20cccccdb8f8485190bf0c37c3d1fe42" style="width: 100.0%; height: 100.0%;">2003: Dexia BIL (<a href=http://www.victorbuyck.be/downloads/pdf/en/52>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/52>nl</a>)</div>')[0];
+                popup_6f2d8452475a4a6680603634db228055.setContent(html_20cccccdb8f8485190bf0c37c3d1fe42);
+            
+
+            marker_b627b214399c430d8d275b0bc3e31f33.bindPopup(popup_6f2d8452475a4a6680603634db228055);
+
+            
+        
+    
+
+            var marker_b4bdf8f0cfec4b4ea41fc4b91e5a2f95 = L.marker(
+                [51.50361775,-0.0194327474551],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_eadebb46df7f408a8b447ff989a9e0ca = L.popup({maxWidth: '300'});
+
+            
+                var html_f33b634713f64eed815026413312c2f7 = $('<div id="html_f33b634713f64eed815026413312c2f7" style="width: 100.0%; height: 100.0%;">2001: HQ2 - 25, Bank Street (<a href=http://www.victorbuyck.be/downloads/pdf/en/53>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/53>nl</a>)<br>2003: BP1 - 1,Churchill Place (<a href=http://www.victorbuyck.be/downloads/pdf/en/50>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/50>nl</a>)<br>2012: BP4 (<a href=http://www.victorbuyck.be/downloads/pdf/en/71>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/71>nl</a>)<br>2016: Newfoundland (<a href=http://www.victorbuyck.be/downloads/pdf/en/102>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/102>nl</a>)</div>')[0];
+                popup_eadebb46df7f408a8b447ff989a9e0ca.setContent(html_f33b634713f64eed815026413312c2f7);
+            
+
+            marker_b4bdf8f0cfec4b4ea41fc4b91e5a2f95.bindPopup(popup_eadebb46df7f408a8b447ff989a9e0ca);
+
+            
+        
+    
+
+            var marker_369b55b2b18f4b0eb35ce113fcf47ef2 = L.marker(
+                [49.5468336,0.9502671],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_75565fcc8d804326b886ffed618392d2 = L.popup({maxWidth: '300'});
+
+            
+                var html_d6d02fed557f4ddbb8b52aba94b8d79c = $('<div id="html_d6d02fed557f4ddbb8b52aba94b8d79c" style="width: 100.0%; height: 100.0%;">2012: Austreberthe (<a href=http://www.victorbuyck.be/downloads/pdf/en/75>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/75>nl</a>)</div>')[0];
+                popup_75565fcc8d804326b886ffed618392d2.setContent(html_d6d02fed557f4ddbb8b52aba94b8d79c);
+            
+
+            marker_369b55b2b18f4b0eb35ce113fcf47ef2.bindPopup(popup_75565fcc8d804326b886ffed618392d2);
+
+            
+        
+    
+
+            var marker_98d73e608f7c4b2a8c060d24aadbe9b6 = L.marker(
+                [49.4404591,1.0939658],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_e046bb2b2aee439db58fc1284add7ff8 = L.popup({maxWidth: '300'});
+
+            
+                var html_5f7523b996534598bc84accba31b8a9d = $('<div id="html_5f7523b996534598bc84accba31b8a9d" style="width: 100.0%; height: 100.0%;">2004: Gustave Flaubert bridge (<a href=http://www.victorbuyck.be/downloads/pdf/en/17>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/17>nl</a>)<br>2004: HEFBRUG GUSTAVE FLAUBERT (<a href=http://www.victorbuyck.be/downloads/pdf/en/97>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/97>nl</a>)<br>2013: Refurbushment Pont Mathilde (<a href=http://www.victorbuyck.be/downloads/pdf/en/91>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/91>nl</a>)</div>')[0];
+                popup_e046bb2b2aee439db58fc1284add7ff8.setContent(html_5f7523b996534598bc84accba31b8a9d);
+            
+
+            marker_98d73e608f7c4b2a8c060d24aadbe9b6.bindPopup(popup_e046bb2b2aee439db58fc1284add7ff8);
+
+            
+        
+    
+
+            var marker_4b009d447cea4b50bfc5f209203fe71b = L.marker(
+                [52.3258043,5.1221615],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_ed92888a406241438ba49b4c7f8e81d4 = L.popup({maxWidth: '300'});
+
+            
+                var html_768eee54b67d4a1d96991e04263d2b54 = $('<div id="html_768eee54b67d4a1d96991e04263d2b54" style="width: 100.0%; height: 100.0%;">2014: Muiderberg SAAOne (<a href=http://www.victorbuyck.be/downloads/pdf/en/88>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/88>nl</a>)</div>')[0];
+                popup_ed92888a406241438ba49b4c7f8e81d4.setContent(html_768eee54b67d4a1d96991e04263d2b54);
+            
+
+            marker_4b009d447cea4b50bfc5f209203fe71b.bindPopup(popup_ed92888a406241438ba49b4c7f8e81d4);
+
+            
+        
+    
+
+            var marker_9b90b3fe39f44310a77ce7a91ad84100 = L.marker(
+                [43.4933379,-1.475099],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_c354560d6b0f420b95f3188b455747f8 = L.popup({maxWidth: '300'});
+
+            
+                var html_224ead6dfea24bd3b707dc9625ce95d2 = $('<div id="html_224ead6dfea24bd3b707dc9625ce95d2" style="width: 100.0%; height: 100.0%;">2010: Railway Bridge crossing the Adour in Bayonne (<a href=http://www.victorbuyck.be/downloads/pdf/en/64>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/64>nl</a>)</div>')[0];
+                popup_c354560d6b0f420b95f3188b455747f8.setContent(html_224ead6dfea24bd3b707dc9625ce95d2);
+            
+
+            marker_9b90b3fe39f44310a77ce7a91ad84100.bindPopup(popup_c354560d6b0f420b95f3188b455747f8);
+
+            
+        
+    
+
+            var marker_3d72dce050174d7a81383a9bdb7276c4 = L.marker(
+                [51.2085526,3.226772],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_3b030ac5f6bf48b695709dac57680114 = L.popup({maxWidth: '300'});
+
+            
+                var html_5f441a7f92a24ebfa70d633fe40bcdaf = $('<div id="html_5f441a7f92a24ebfa70d633fe40bcdaf" style="width: 100.0%; height: 100.0%;">2009: Scheepsdalebrug (<a href=http://www.victorbuyck.be/downloads/pdf/en/62>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/62>nl</a>)</div>')[0];
+                popup_3b030ac5f6bf48b695709dac57680114.setContent(html_5f441a7f92a24ebfa70d633fe40bcdaf);
+            
+
+            marker_3d72dce050174d7a81383a9bdb7276c4.bindPopup(popup_3b030ac5f6bf48b695709dac57680114);
+
+            
+        
+    
+
+            var marker_0eb3884c87e3473cbffea2d7653db6e4 = L.marker(
+                [50.9124219,4.4353614],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_65923ba26b9e4b7ab9720118c3fa830c = L.popup({maxWidth: '300'});
+
+            
+                var html_e0d71436627e4efb831c3a5af052990e = $('<div id="html_e0d71436627e4efb831c3a5af052990e" style="width: 100.0%; height: 100.0%;">2008: Pedestrian and cycling bridge across the E19 (<a href=http://www.victorbuyck.be/downloads/pdf/en/40>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/40>nl</a>)</div>')[0];
+                popup_65923ba26b9e4b7ab9720118c3fa830c.setContent(html_e0d71436627e4efb831c3a5af052990e);
+            
+
+            marker_0eb3884c87e3473cbffea2d7653db6e4.bindPopup(popup_65923ba26b9e4b7ab9720118c3fa830c);
+
+            
+        
+    
+
+            var marker_c19971b94969492c886d149dd1519c7f = L.marker(
+                [47.2186371,-1.5541362],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_ff7658cca28b4552a7d94c74f227b51b = L.popup({maxWidth: '300'});
+
+            
+                var html_3b9ca473dfbf479daf107d4274e7db53 = $('<div id="html_3b9ca473dfbf479daf107d4274e7db53" style="width: 100.0%; height: 100.0%;">2009: Eric Tabarly Bridge (<a href=http://www.victorbuyck.be/downloads/pdf/en/5>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/5>nl</a>)</div>')[0];
+                popup_ff7658cca28b4552a7d94c74f227b51b.setContent(html_3b9ca473dfbf479daf107d4274e7db53);
+            
+
+            marker_c19971b94969492c886d149dd1519c7f.bindPopup(popup_ff7658cca28b4552a7d94c74f227b51b);
+
+            
+        
+    
+
+            var marker_90b6da4149f54b0e967ef4c710ba05c4 = L.marker(
+                [52.3305,5.06701],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_46ee305d2f6740588873160fea861e1f = L.popup({maxWidth: '300'});
+
+            
+                var html_79358242c9a6485eacd3b000562aeb95 = $('<div id="html_79358242c9a6485eacd3b000562aeb95" style="width: 100.0%; height: 100.0%;">2006: Muiderbrug (<a href=http://www.victorbuyck.be/downloads/pdf/en/55>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/55>nl</a>)</div>')[0];
+                popup_46ee305d2f6740588873160fea861e1f.setContent(html_79358242c9a6485eacd3b000562aeb95);
+            
+
+            marker_90b6da4149f54b0e967ef4c710ba05c4.bindPopup(popup_46ee305d2f6740588873160fea861e1f);
+
+            
+        
+    
+
+            var marker_83f00fa4f391462e99042354f797e1d1 = L.marker(
+                [51.0626964,4.3572324644],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_5000195ba6d940a2954457869b0b66b7 = L.popup({maxWidth: '300'});
+
+            
+                var html_cbb6632f38ec487d8a54a2574f36608a = $('<div id="html_cbb6632f38ec487d8a54a2574f36608a" style="width: 100.0%; height: 100.0%;">2006: The Boulevard bridge (<a href=http://www.victorbuyck.be/downloads/pdf/en/45>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/45>nl</a>)</div>')[0];
+                popup_5000195ba6d940a2954457869b0b66b7.setContent(html_cbb6632f38ec487d8a54a2574f36608a);
+            
+
+            marker_83f00fa4f391462e99042354f797e1d1.bindPopup(popup_5000195ba6d940a2954457869b0b66b7);
+
+            
+        
+    
+
+            var marker_f5fe45a8f65b424e9176429236af3497 = L.marker(
+                [49.4179497,2.8263171],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_ea53ad6a438b4e0782a77279e326cd51 = L.popup({maxWidth: '300'});
+
+            
+                var html_21d1c3fff2334b32ab9d65e476b38ffb = $('<div id="html_21d1c3fff2334b32ab9d65e476b38ffb" style="width: 100.0%; height: 100.0%;">2010: Urban Bridge of Compiègne (<a href=http://www.victorbuyck.be/downloads/pdf/en/58>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/58>nl</a>)</div>')[0];
+                popup_ea53ad6a438b4e0782a77279e326cd51.setContent(html_21d1c3fff2334b32ab9d65e476b38ffb);
+            
+
+            marker_f5fe45a8f65b424e9176429236af3497.bindPopup(popup_ea53ad6a438b4e0782a77279e326cd51);
+
+            
+        
+    
+
+            var marker_6457fef371c64e83873d688fa35ddd7a = L.marker(
+                [50.2949558,5.0974251],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_c6456744179d40fcb28a3d9490ad3783 = L.popup({maxWidth: '300'});
+
+            
+                var html_b7327221b6ff408caa7b268949edce58 = $('<div id="html_b7327221b6ff408caa7b268949edce58" style="width: 100.0%; height: 100.0%;">2013: Bowstring Ciney (<a href=http://www.victorbuyck.be/downloads/pdf/en/92>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/92>nl</a>)</div>')[0];
+                popup_c6456744179d40fcb28a3d9490ad3783.setContent(html_b7327221b6ff408caa7b268949edce58);
+            
+
+            marker_6457fef371c64e83873d688fa35ddd7a.bindPopup(popup_c6456744179d40fcb28a3d9490ad3783);
+
+            
+        
+    
+
+            var marker_a1e28c661a744776bd337bcaf9e1a4c9 = L.marker(
+                [51.00092235,3.70217909301],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_eb7bf06c575648c38f9380ba36460d54 = L.popup({maxWidth: '300'});
+
+            
+                var html_5aece03451864bb794ce29e054a654cc = $('<div id="html_5aece03451864bb794ce29e054a654cc" style="width: 100.0%; height: 100.0%;">2014: Verlenging Tramlijn 21-22 Zwijnaarde (<a href=http://www.victorbuyck.be/downloads/pdf/en/94>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/94>nl</a>)</div>')[0];
+                popup_eb7bf06c575648c38f9380ba36460d54.setContent(html_5aece03451864bb794ce29e054a654cc);
+            
+
+            marker_a1e28c661a744776bd337bcaf9e1a4c9.bindPopup(popup_eb7bf06c575648c38f9380ba36460d54);
+
+            
+        
+    
+
+            var marker_91629ea165fe4f9d9c26fade45bcee4d = L.marker(
+                [46.668831,5.5844733],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_7b61058759e5478bba09fed2b49d015e = L.popup({maxWidth: '300'});
+
+            
+                var html_d097440b64cf4547b91bcb78caa7a586 = $('<div id="html_d097440b64cf4547b91bcb78caa7a586" style="width: 100.0%; height: 100.0%;">2007: Perrigny railway link (<a href=http://www.victorbuyck.be/downloads/pdf/en/25>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/25>nl</a>)</div>')[0];
+                popup_7b61058759e5478bba09fed2b49d015e.setContent(html_d097440b64cf4547b91bcb78caa7a586);
+            
+
+            marker_91629ea165fe4f9d9c26fade45bcee4d.bindPopup(popup_7b61058759e5478bba09fed2b49d015e);
+
+            
+        
+    
+
+            var marker_dbddcb4785714e119051486e3df88c84 = L.marker(
+                [50.3594889,3.5266657],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_8b43d40984384e68a9ee4769d48fb057 = L.popup({maxWidth: '300'});
+
+            
+                var html_b71603a423fd41b2be134218035f4660 = $('<div id="html_b71603a423fd41b2be134218035f4660" style="width: 100.0%; height: 100.0%;">2013: Viaduc OA3 - Valenciennes (<a href=http://www.victorbuyck.be/downloads/pdf/en/90>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/90>nl</a>)</div>')[0];
+                popup_8b43d40984384e68a9ee4769d48fb057.setContent(html_b71603a423fd41b2be134218035f4660);
+            
+
+            marker_dbddcb4785714e119051486e3df88c84.bindPopup(popup_8b43d40984384e68a9ee4769d48fb057);
+
+            
+        
+    
+
+            var marker_dfd56d5d9469463b8a14daaa7de7fcc5 = L.marker(
+                [51.7689546,4.68678905674],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_3cf8342fef0d4f389889547e1ceea5d7 = L.popup({maxWidth: '300'});
+
+            
+                var html_09fb038e3d0a40cd8a352b85b38038e4 = $('<div id="html_09fb038e3d0a40cd8a352b85b38038e4" style="width: 100.0%; height: 100.0%;">1993: Railway bridge over the Oude Maas (<a href=http://www.victorbuyck.be/downloads/pdf/en/10>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/10>nl</a>)</div>')[0];
+                popup_3cf8342fef0d4f389889547e1ceea5d7.setContent(html_09fb038e3d0a40cd8a352b85b38038e4);
+            
+
+            marker_dfd56d5d9469463b8a14daaa7de7fcc5.bindPopup(popup_3cf8342fef0d4f389889547e1ceea5d7);
+
+            
+        
+    
+
+            var marker_939dde81309748708d8e34d81e4e63a7 = L.marker(
+                [50.6451381,5.5734203],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_7e3cc4fd48d8483e9db33bbe10d4d6d1 = L.popup({maxWidth: '300'});
+
+            
+                var html_589ee413f4224647957d92943f506c90 = $('<div id="html_589ee413f4224647957d92943f506c90" style="width: 100.0%; height: 100.0%;">2004: Vallon du Prester viaduct (<a href=http://www.victorbuyck.be/downloads/pdf/en/23>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/23>nl</a>)</div>')[0];
+                popup_7e3cc4fd48d8483e9db33bbe10d4d6d1.setContent(html_589ee413f4224647957d92943f506c90);
+            
+
+            marker_939dde81309748708d8e34d81e4e63a7.bindPopup(popup_7e3cc4fd48d8483e9db33bbe10d4d6d1);
+
+            
+        
+    
+
+            var marker_a4869ab27813424eb08343a35c6bb0ce = L.marker(
+                [51.0276311,2.34080433417],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_a68d4aa1e147450ca1adf1d0abb97057 = L.popup({maxWidth: '300'});
+
+            
+                var html_cd9af89f20fb42819424837d62c2b44d = $('<div id="html_cd9af89f20fb42819424837d62c2b44d" style="width: 100.0%; height: 100.0%;">2007: ArcelorMittal Dunkerques - RH2 (<a href=http://www.victorbuyck.be/downloads/pdf/en/47>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/47>nl</a>)</div>')[0];
+                popup_a68d4aa1e147450ca1adf1d0abb97057.setContent(html_cd9af89f20fb42819424837d62c2b44d);
+            
+
+            marker_a4869ab27813424eb08343a35c6bb0ce.bindPopup(popup_a68d4aa1e147450ca1adf1d0abb97057);
+
+            
+        
+    
+
+            var marker_eaae56f886e14412aff42ad236827464 = L.marker(
+                [44.1006693,3.0777594],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_248df6d353b04d02870b360d10f5c4d0 = L.popup({maxWidth: '300'});
+
+            
+                var html_46ca9174a8f04b668ac2f8ce3179d3ac = $('<div id="html_46ca9174a8f04b668ac2f8ce3179d3ac" style="width: 100.0%; height: 100.0%;">1998: Verrières Viaduct (<a href=http://www.victorbuyck.be/downloads/pdf/en/70>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/70>nl</a>)</div>')[0];
+                popup_248df6d353b04d02870b360d10f5c4d0.setContent(html_46ca9174a8f04b668ac2f8ce3179d3ac);
+            
+
+            marker_eaae56f886e14412aff42ad236827464.bindPopup(popup_248df6d353b04d02870b360d10f5c4d0);
+
+            
+        
+    
+
+            var marker_a423bf3079d04e0fac6080cd85d510a6 = L.marker(
+                [51.8624444,5.73019731047],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_da53dd1a22d2422e8996073299d5835e = L.popup({maxWidth: '300'});
+
+            
+                var html_4bd49489735445f891f50ffca4db8daa = $('<div id="html_4bd49489735445f891f50ffca4db8daa" style="width: 100.0%; height: 100.0%;">2012: Ewijk (<a href=http://www.victorbuyck.be/downloads/pdf/en/77>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/77>nl</a>)</div>')[0];
+                popup_da53dd1a22d2422e8996073299d5835e.setContent(html_4bd49489735445f891f50ffca4db8daa);
+            
+
+            marker_a423bf3079d04e0fac6080cd85d510a6.bindPopup(popup_da53dd1a22d2422e8996073299d5835e);
+
+            
+        
+    
+
+            var marker_7dcac22ee0ad4a54b7ff2c6f6ae5af01 = L.marker(
+                [25.3014957,51.4996673988],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_5055fbe36ce241ec909ec56e1f753f99 = L.popup({maxWidth: '300'});
+
+            
+                var html_5d3affdb92e64a51b5fd54d318f42bb7 = $('<div id="html_5d3affdb92e64a51b5fd54d318f42bb7" style="width: 100.0%; height: 100.0%;">2007: Doha Convention Centre - SIDRA TREES (<a href=http://www.victorbuyck.be/downloads/pdf/en/108>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/108>nl</a>)</div>')[0];
+                popup_5055fbe36ce241ec909ec56e1f753f99.setContent(html_5d3affdb92e64a51b5fd54d318f42bb7);
+            
+
+            marker_7dcac22ee0ad4a54b7ff2c6f6ae5af01.bindPopup(popup_5055fbe36ce241ec909ec56e1f753f99);
+
+            
+        
+    
+
+            var marker_2866c9b4b30348a28e326ae79b05e602 = L.marker(
+                [53.550341,10.000654],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_8b397894388f4055ad15a9085b7a423a = L.popup({maxWidth: '300'});
+
+            
+                var html_cb213eed73af452a92c0214012393ced = $('<div id="html_cb213eed73af452a92c0214012393ced" style="width: 100.0%; height: 100.0%;">2012: Baakenhafenbrücke (<a href=http://www.victorbuyck.be/downloads/pdf/en/78>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/78>nl</a>)</div>')[0];
+                popup_8b397894388f4055ad15a9085b7a423a.setContent(html_cb213eed73af452a92c0214012393ced);
+            
+
+            marker_2866c9b4b30348a28e326ae79b05e602.bindPopup(popup_8b397894388f4055ad15a9085b7a423a);
+
+            
+        
+    
+
+            var marker_b2de5e4af80a4b6ebd1eee72a19ec914 = L.marker(
+                [45.7578137,4.8320114],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_3df1c95fedf74d0b96a06bf02e6339d8 = L.popup({maxWidth: '300'});
+
+            
+                var html_aff9a1c12b3d4f70b1c6bd7ec95cf480 = $('<div id="html_aff9a1c12b3d4f70b1c6bd7ec95cf480" style="width: 100.0%; height: 100.0%;">2008: Cotière viaduct (<a href=http://www.victorbuyck.be/downloads/pdf/en/3>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/3>nl</a>)</div>')[0];
+                popup_3df1c95fedf74d0b96a06bf02e6339d8.setContent(html_aff9a1c12b3d4f70b1c6bd7ec95cf480);
+            
+
+            marker_b2de5e4af80a4b6ebd1eee72a19ec914.bindPopup(popup_3df1c95fedf74d0b96a06bf02e6339d8);
+
+            
+        
+    
+
+            var marker_ff250c67cd214388a6ac9d0b7e3882ff = L.marker(
+                [51.1919904,4.7385027],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_704a4e57845f44528d73b081e8ac43ae = L.popup({maxWidth: '300'});
+
+            
+                var html_6b647c1f07ca42d5bf9c821c860685cf = $('<div id="html_6b647c1f07ca42d5bf9c821c860685cf" style="width: 100.0%; height: 100.0%;">2010: Grobbendonk (<a href=http://www.victorbuyck.be/downloads/pdf/en/57>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/57>nl</a>)</div>')[0];
+                popup_704a4e57845f44528d73b081e8ac43ae.setContent(html_6b647c1f07ca42d5bf9c821c860685cf);
+            
+
+            marker_ff250c67cd214388a6ac9d0b7e3882ff.bindPopup(popup_704a4e57845f44528d73b081e8ac43ae);
+
+            
+        
+    
+
+            var marker_f027db4435ab434d8835dce03e9a910a = L.marker(
+                [48.9435844,1.7330307],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_d0789b36412f4d8f9539a0134b22c714 = L.popup({maxWidth: '300'});
+
+            
+                var html_32cb4478d86c478998df2657a954ba2c = $('<div id="html_32cb4478d86c478998df2657a954ba2c" style="width: 100.0%; height: 100.0%;">2016: A13 Viaduc de Guerville (<a href=http://www.victorbuyck.be/downloads/pdf/en/103>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/103>nl</a>)</div>')[0];
+                popup_d0789b36412f4d8f9539a0134b22c714.setContent(html_32cb4478d86c478998df2657a954ba2c);
+            
+
+            marker_f027db4435ab434d8835dce03e9a910a.bindPopup(popup_d0789b36412f4d8f9539a0134b22c714);
+
+            
+        
+    
+
+            var marker_84ff411cd0c645399f5f7e9e7714c186 = L.marker(
+                [48.8566101,2.3514992],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_f96ddae92b8444be96467ea00de4c1d2 = L.popup({maxWidth: '300'});
+
+            
+                var html_d5ce732340ab4090b94f967d4b38364e = $('<div id="html_d5ce732340ab4090b94f967d4b38364e" style="width: 100.0%; height: 100.0%;">2009: Austerlitz railway station, sections A2-A9-A11 (<a href=http://www.victorbuyck.be/downloads/pdf/en/1>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/1>nl</a>)<br>2010: National Bridge (<a href=http://www.victorbuyck.be/downloads/pdf/en/61>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/61>nl</a>)<br>2014: Bâtiment Panorama - T6C (<a href=http://www.victorbuyck.be/downloads/pdf/en/93>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/93>nl</a>)<br>2015: Passerelle des Batignolles (<a href=http://www.victorbuyck.be/downloads/pdf/en/104>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/104>nl</a>)</div>')[0];
+                popup_f96ddae92b8444be96467ea00de4c1d2.setContent(html_d5ce732340ab4090b94f967d4b38364e);
+            
+
+            marker_84ff411cd0c645399f5f7e9e7714c186.bindPopup(popup_f96ddae92b8444be96467ea00de4c1d2);
+
+            
+        
+    
+
+            var marker_f1e2b6d82d7a4c2db5645e86de20e226 = L.marker(
+                [51.0538286,3.7250121],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_73c440e088264fae9fe6f051cd33214f = L.popup({maxWidth: '300'});
+
+            
+                var html_d86ed95b9ce64a479130969ef3583713 = $('<div id="html_d86ed95b9ce64a479130969ef3583713" style="width: 100.0%; height: 100.0%;">1986: Flanders Expo (<a href=http://www.victorbuyck.be/downloads/pdf/en/6>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/6>nl</a>)<br>2002: Bridges over the Ringvaart (R4) (<a href=http://www.victorbuyck.be/downloads/pdf/en/21>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/21>nl</a>)<br>2007: Gaardeniersbridge (<a href=http://www.victorbuyck.be/downloads/pdf/en/41>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/41>nl</a>)<br>2007: Wiedauwkaai Railway bridge (<a href=http://www.victorbuyck.be/downloads/pdf/en/26>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/26>nl</a>)<br>2011: VAC Ghent - Lovinggebouw (<a href=http://www.victorbuyck.be/downloads/pdf/en/72>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/72>nl</a>)<br>2016: Arcelor Mittal Ghent - Upgrade Sidgal 3 (<a href=http://www.victorbuyck.be/downloads/pdf/en/96>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/96>nl</a>)</div>')[0];
+                popup_73c440e088264fae9fe6f051cd33214f.setContent(html_d86ed95b9ce64a479130969ef3583713);
+            
+
+            marker_f1e2b6d82d7a4c2db5645e86de20e226.bindPopup(popup_73c440e088264fae9fe6f051cd33214f);
+
+            
+        
+    
+
+            var marker_53a7dffb59234536a8c0a76f48fa70d3 = L.marker(
+                [51.0681628,5.0893974],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_91a3182b45214e70a3553ee6030a158b = L.popup({maxWidth: '300'});
+
+            
+                var html_8949d43a5a7d4ec6885ceb28733edda6 = $('<div id="html_8949d43a5a7d4ec6885ceb28733edda6" style="width: 100.0%; height: 100.0%;">2017: Bridge Tessenderlo (<a href=http://www.victorbuyck.be/downloads/pdf/en/111>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/111>nl</a>)</div>')[0];
+                popup_91a3182b45214e70a3553ee6030a158b.setContent(html_8949d43a5a7d4ec6885ceb28733edda6);
+            
+
+            marker_53a7dffb59234536a8c0a76f48fa70d3.bindPopup(popup_91a3182b45214e70a3553ee6030a158b);
+
+            
+        
+    
+
+            var marker_2debe9edc6074348a35eb4cde6ebd4cf = L.marker(
+                [52.08095165,5.1276803155],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_c36ff10e400048d884291cebdc476094 = L.popup({maxWidth: '300'});
+
+            
+                var html_f9e550336c1d44ecac3361335d9feb0c = $('<div id="html_f9e550336c1d44ecac3361335d9feb0c" style="width: 100.0%; height: 100.0%;">2000: Demka bridge (<a href=http://www.victorbuyck.be/downloads/pdf/en/18>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/18>nl</a>)<br>2000: Prins Claus Bridge (<a href=http://www.victorbuyck.be/downloads/pdf/en/67>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/67>nl</a>)<br>2005: Hogeweidebridge (<a href=http://www.victorbuyck.be/downloads/pdf/en/35>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/35>nl</a>)</div>')[0];
+                popup_c36ff10e400048d884291cebdc476094.setContent(html_f9e550336c1d44ecac3361335d9feb0c);
+            
+
+            marker_2debe9edc6074348a35eb4cde6ebd4cf.bindPopup(popup_c36ff10e400048d884291cebdc476094);
+
+            
+        
+    
+
+            var marker_bb43250a5639467b95274bf6800e44e5 = L.marker(
+                [51.5073219,-0.1276474],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_1fcc3a259fcd4d6f83fd8a831b1eaf5d = L.popup({maxWidth: '300'});
+
+            
+                var html_956415ce808e40cb8c0e8c394a2bdc56 = $('<div id="html_956415ce808e40cb8c0e8c394a2bdc56" style="width: 100.0%; height: 100.0%;">1987: Broadgate Exchange House Phase 11 (<a href=http://www.victorbuyck.be/downloads/pdf/en/7>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/7>nl</a>)<br>2001: Swiss Re Headquarters (<a href=http://www.victorbuyck.be/downloads/pdf/en/14>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/14>nl</a>)</div>')[0];
+                popup_1fcc3a259fcd4d6f83fd8a831b1eaf5d.setContent(html_956415ce808e40cb8c0e8c394a2bdc56);
+            
+
+            marker_bb43250a5639467b95274bf6800e44e5.bindPopup(popup_1fcc3a259fcd4d6f83fd8a831b1eaf5d);
+
+            
+        
+    
+
+            var marker_23244761fc8d4b8fa9ddcf242dbe8d23 = L.marker(
+                [49.0025288,2.5141521],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_adefb4f2d2bf47f3b0bc3d2dbeec1bfe = L.popup({maxWidth: '300'});
+
+            
+                var html_d10ede78706a4d83b2a5c5e292f82c1c = $('<div id="html_d10ede78706a4d83b2a5c5e292f82c1c" style="width: 100.0%; height: 100.0%;">2004: Passenger Terminal S3 Charles de Gaulle (<a href=http://www.victorbuyck.be/downloads/pdf/en/49>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/49>nl</a>)</div>')[0];
+                popup_adefb4f2d2bf47f3b0bc3d2dbeec1bfe.setContent(html_d10ede78706a4d83b2a5c5e292f82c1c);
+            
+
+            marker_23244761fc8d4b8fa9ddcf242dbe8d23.bindPopup(popup_adefb4f2d2bf47f3b0bc3d2dbeec1bfe);
+
+            
+        
+    
+
+            var marker_b84fc674a6a042bcb1538169c6b0fd82 = L.marker(
+                [49.6262741,6.15034163646],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_8a1f2c46a7dd41388ea19ba3428652fd = L.popup({maxWidth: '300'});
+
+            
+                var html_a059b2aaf3d845d3bc4395950df4380b = $('<div id="html_a059b2aaf3d845d3bc4395950df4380b" style="width: 100.0%; height: 100.0%;">2000: Luxembourg Chamber of Commerce (<a href=http://www.victorbuyck.be/downloads/pdf/en/54>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/54>nl</a>)<br>2000: Luxemburg Chamber of Commerce (<a href=http://www.victorbuyck.be/downloads/pdf/en/15>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/15>nl</a>)</div>')[0];
+                popup_8a1f2c46a7dd41388ea19ba3428652fd.setContent(html_a059b2aaf3d845d3bc4395950df4380b);
+            
+
+            marker_b84fc674a6a042bcb1538169c6b0fd82.bindPopup(popup_8a1f2c46a7dd41388ea19ba3428652fd);
+
+            
+        
+    
+
+            var marker_8773d05e5b08420980bc303f24c79bc8 = L.marker(
+                [51.7982408,-3.1740109],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_7b2ca601e5be477a8bb6c20ea166bf7a = L.popup({maxWidth: '300'});
+
+            
+                var html_9d2b65d21d9c4659823c38eb0145354f = $('<div id="html_9d2b65d21d9c4659823c38eb0145354f" style="width: 100.0%; height: 100.0%;">2015: Heads of the Valley (<a href=http://www.victorbuyck.be/downloads/pdf/en/107>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/107>nl</a>)</div>')[0];
+                popup_7b2ca601e5be477a8bb6c20ea166bf7a.setContent(html_9d2b65d21d9c4659823c38eb0145354f);
+            
+
+            marker_8773d05e5b08420980bc303f24c79bc8.bindPopup(popup_7b2ca601e5be477a8bb6c20ea166bf7a);
+
+            
+        
+    
+
+            var marker_310bd58e483644648c2ecf2f2e45b247 = L.marker(
+                [51.1924818,5.59955819463],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_3a1e9558c41944068708bf93087e0670 = L.popup({maxWidth: '300'});
+
+            
+                var html_383f4f67f49e4cbe91dd10cd6404f81c = $('<div id="html_383f4f67f49e4cbe91dd10cd6404f81c" style="width: 100.0%; height: 100.0%;">2012: Kempen North-South Connection (<a href=http://www.victorbuyck.be/downloads/pdf/en/81>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/81>nl</a>)</div>')[0];
+                popup_3a1e9558c41944068708bf93087e0670.setContent(html_383f4f67f49e4cbe91dd10cd6404f81c);
+            
+
+            marker_310bd58e483644648c2ecf2f2e45b247.bindPopup(popup_3a1e9558c41944068708bf93087e0670);
+
+            
+        
+    
+
+            var marker_5f924770c9ae4764a38c88cc72413403 = L.marker(
+                [48.584614,7.7507127],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_0d9d33b47a164a0b9ddb4e65371e9c69 = L.popup({maxWidth: '300'});
+
+            
+                var html_a85ddf4be6d24e4bae72f34da66f04bb = $('<div id="html_a85ddf4be6d24e4bae72f34da66f04bb" style="width: 100.0%; height: 100.0%;">2014: Bridge across the Rhine (<a href=http://www.victorbuyck.be/downloads/pdf/en/98>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/98>nl</a>)</div>')[0];
+                popup_0d9d33b47a164a0b9ddb4e65371e9c69.setContent(html_a85ddf4be6d24e4bae72f34da66f04bb);
+            
+
+            marker_5f924770c9ae4764a38c88cc72413403.bindPopup(popup_0d9d33b47a164a0b9ddb4e65371e9c69);
+
+            
+        
+    
+
+            var marker_5fd33e8ef55a4bbb950b8a9a2ee0621f = L.marker(
+                [10.4432392,-61.2608332445],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_e750bccd4b954330b2f6a9a03da72f0f = L.popup({maxWidth: '300'});
+
+            
+                var html_bfa0cedf43e24576b84eb0cb46f27f19 = $('<div id="html_bfa0cedf43e24576b84eb0cb46f27f19" style="width: 100.0%; height: 100.0%;">2007: CRH/UBH Interchange Trinidad (<a href=http://www.victorbuyck.be/downloads/pdf/en/109>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/109>nl</a>)</div>')[0];
+                popup_e750bccd4b954330b2f6a9a03da72f0f.setContent(html_bfa0cedf43e24576b84eb0cb46f27f19);
+            
+
+            marker_5fd33e8ef55a4bbb950b8a9a2ee0621f.bindPopup(popup_e750bccd4b954330b2f6a9a03da72f0f);
+
+            
+        
+    
+
+            var marker_c45f999acf6a415581eca6361afe5a6c = L.marker(
+                [50.7780196,3.043836],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_4388487fab1e464cbf49028944caffd8 = L.popup({maxWidth: '300'});
+
+            
+                var html_8bb79dc840ed46cdb2a52ebcd837c177 = $('<div id="html_8bb79dc840ed46cdb2a52ebcd837c177" style="width: 100.0%; height: 100.0%;">2016: Brug over de Leie te Wervik (<a href=http://www.victorbuyck.be/downloads/pdf/en/106>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/106>nl</a>)</div>')[0];
+                popup_4388487fab1e464cbf49028944caffd8.setContent(html_8bb79dc840ed46cdb2a52ebcd837c177);
+            
+
+            marker_c45f999acf6a415581eca6361afe5a6c.bindPopup(popup_4388487fab1e464cbf49028944caffd8);
+
+            
+        
+    
+
+            var marker_2dead125ef15407f8a68060c0e779e2b = L.marker(
+                [51.1438611,4.8597257],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_3f11915a3c394ee9a451d70823791c1a = L.popup({maxWidth: '300'});
+
+            
+                var html_5f1b13cf9a174c938cc4581c3d7f886b = $('<div id="html_5f1b13cf9a174c938cc4581c3d7f886b" style="width: 100.0%; height: 100.0%;">2006: Albert Canal (<a href=http://www.victorbuyck.be/downloads/pdf/en/66>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/66>nl</a>)</div>')[0];
+                popup_3f11915a3c394ee9a451d70823791c1a.setContent(html_5f1b13cf9a174c938cc4581c3d7f886b);
+            
+
+            marker_2dead125ef15407f8a68060c0e779e2b.bindPopup(popup_3f11915a3c394ee9a451d70823791c1a);
+
+            
+        
+    
+
+            var marker_1aac9ed49f024adabc017f551635c9cf = L.marker(
+                [44.3778474,4.6976609],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_3d24d6b54e7e42269a039bf50e0b180e = L.popup({maxWidth: '300'});
+
+            
+                var html_dbbaacd6a0ac4a0fa34e3efe0376ad92 = $('<div id="html_dbbaacd6a0ac4a0fa34e3efe0376ad92" style="width: 100.0%; height: 100.0%;">1996: Garde-Adhémar Viaduct (<a href=http://www.victorbuyck.be/downloads/pdf/en/12>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/12>nl</a>)</div>')[0];
+                popup_3d24d6b54e7e42269a039bf50e0b180e.setContent(html_dbbaacd6a0ac4a0fa34e3efe0376ad92);
+            
+
+            marker_1aac9ed49f024adabc017f551635c9cf.bindPopup(popup_3d24d6b54e7e42269a039bf50e0b180e);
+
+            
+        
+    
+
+            var marker_144dc8c555c444c880054a5dc490bc27 = L.marker(
+                [51.0347708,2.3772525],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_9744691a1e104579a1d33d14ae0fa9d6 = L.popup({maxWidth: '300'});
+
+            
+                var html_f0902d36a2b94896b754c4e81a860f23 = $('<div id="html_f0902d36a2b94896b754c4e81a860f23" style="width: 100.0%; height: 100.0%;">2014: Passerelle du Grand Large (<a href=http://www.victorbuyck.be/downloads/pdf/en/89>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/89>nl</a>)</div>')[0];
+                popup_9744691a1e104579a1d33d14ae0fa9d6.setContent(html_f0902d36a2b94896b754c4e81a860f23);
+            
+
+            marker_144dc8c555c444c880054a5dc490bc27.bindPopup(popup_9744691a1e104579a1d33d14ae0fa9d6);
+
+            
+        
+    
+
+            var marker_927e8d2ad6764697ba641fdcd959300e = L.marker(
+                [52.3350493,4.9842843277],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_07e5da68e43e4e4281cb316cafa5e867 = L.popup({maxWidth: '300'});
+
+            
+                var html_e9ea6cd3d0b94d6f81e2d7c5ac8e21a8 = $('<div id="html_e9ea6cd3d0b94d6f81e2d7c5ac8e21a8" style="width: 100.0%; height: 100.0%;">2011: Uyllander Bridge (<a href=http://www.victorbuyck.be/downloads/pdf/en/82>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/82>nl</a>)</div>')[0];
+                popup_07e5da68e43e4e4281cb316cafa5e867.setContent(html_e9ea6cd3d0b94d6f81e2d7c5ac8e21a8);
+            
+
+            marker_927e8d2ad6764697ba641fdcd959300e.bindPopup(popup_07e5da68e43e4e4281cb316cafa5e867);
+
+            
+        
+    
+
+            var marker_d6ffd467766b45799dca643c4f6fba25 = L.marker(
+                [51.4538022,-2.5972985],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_c2dce5f86ad349d99d74827ee36d80bb = L.popup({maxWidth: '300'});
+
+            
+                var html_00d13673288a47f78119714e1d162135 = $('<div id="html_00d13673288a47f78119714e1d162135" style="width: 100.0%; height: 100.0%;">2016: Bristol Metrobus Skew Bridge (<a href=http://www.victorbuyck.be/downloads/pdf/en/110>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/110>nl</a>)</div>')[0];
+                popup_c2dce5f86ad349d99d74827ee36d80bb.setContent(html_00d13673288a47f78119714e1d162135);
+            
+
+            marker_d6ffd467766b45799dca643c4f6fba25.bindPopup(popup_c2dce5f86ad349d99d74827ee36d80bb);
+
+            
+        
+    
+
+            var marker_8a2567ad8e0741049c3f94c28c3af1b0 = L.marker(
+                [46.2017559,6.1466014],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_e0f5c82a85714f569c51418298576545 = L.popup({maxWidth: '300'});
+
+            
+                var html_53f4dda8a5f14c5986c044ba00620545 = $('<div id="html_53f4dda8a5f14c5986c044ba00620545" style="width: 100.0%; height: 100.0%;">2012: Floyd - JTI headquarters (<a href=http://www.victorbuyck.be/downloads/pdf/en/84>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/84>nl</a>)</div>')[0];
+                popup_e0f5c82a85714f569c51418298576545.setContent(html_53f4dda8a5f14c5986c044ba00620545);
+            
+
+            marker_8a2567ad8e0741049c3f94c28c3af1b0.bindPopup(popup_e0f5c82a85714f569c51418298576545);
+
+            
+        
+    
+
+            var marker_afd729d52dd24e99bc1731f23601bac5 = L.marker(
+                [47.237953,6.0243246],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e98750a9549342a496a341b7c4a9e8fc);
+            
+    
+            var popup_4ecf999c439d487a929587211f28197a = L.popup({maxWidth: '300'});
+
+            
+                var html_f284e0ade5b04169a690b485fac092cc = $('<div id="html_f284e0ade5b04169a690b485fac092cc" style="width: 100.0%; height: 100.0%;">2011: Pont Battant (<a href=http://www.victorbuyck.be/downloads/pdf/en/80>en</a>|<a href=http://www.victorbuyck.be/downloads/pdf/nl/80>nl</a>)</div>')[0];
+                popup_4ecf999c439d487a929587211f28197a.setContent(html_f284e0ade5b04169a690b485fac092cc);
+            
+
+            marker_afd729d52dd24e99bc1731f23601bac5.bindPopup(popup_4ecf999c439d487a929587211f28197a);
+
+            
+        
+</script>
